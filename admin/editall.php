@@ -4,10 +4,12 @@
 ?>
 <!doctype html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>The one ring to control all rings...</title>
+	<meta charset="UTF-8">
+	<title>The one ring to control all rings...</title>
 </head>
+
 <body>
 	<?php
 		$tbl = "tbl_cast";
@@ -16,4 +18,5 @@
 		echo single_edit($tbl, $col, $id);
 	?>
 </body>
+
 </html>

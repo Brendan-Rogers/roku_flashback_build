@@ -16,10 +16,12 @@
 ?>
 <!doctype html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Welcome to your admin panel login</title>
+	<meta charset="UTF-8">
+	<title>Welcome to your admin panel login</title>
 </head>
+
 <body>
 	<?php if(!empty($message)){ echo $message;} ?>
 	<form action="admin_login.php" method="post">
@@ -33,4 +35,5 @@
 	</form>
 
 </body>
+
 </html>
