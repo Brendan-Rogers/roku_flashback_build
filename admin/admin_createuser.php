@@ -18,10 +18,12 @@
 ?>
 <!doctype html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Create User</title>
+	<meta charset="UTF-8">
+	<title>Create User</title>
 </head>
+
 <body>
 	<h2>Create User</h2>
 	<?php if(!empty($message)){echo $message;} ?>
@@ -42,4 +44,5 @@
 		<input type="submit" name="submit" value="Create User">
 	</form>
 </body>
+
 </html>

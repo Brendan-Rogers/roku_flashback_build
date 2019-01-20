@@ -13,14 +13,14 @@
 				$fieldType = $dataType['pdo_type'];
 				$column_value = $row[$fieldName];
 				if($fieldName != $col):?>
-				<label>
-					<?php echo $fieldName;?>
-				</label><br>
-				<?php if($fieldType !== 252):?>
-				<input type="text" name="<?php echo $fieldName;?>" value="<?php echo $column_value;?>" /><br><br>
-				<?php else:?>
-				<textarea name="<?php echo $fieldName;?>"><?php echo $column_value;?></textarea>
-		<?php endif;
+	<label>
+		<?php echo $fieldName;?>
+	</label><br>
+	<?php if($fieldType !== 252):?>
+	<input type="text" name="<?php echo $fieldName;?>" value="<?php echo $column_value;?>" /><br><br>
+	<?php else:?>
+	<textarea name="<?php echo $fieldName;?>"><?php echo $column_value;?></textarea>
+	<?php endif;
 			endif;
 		endfor;
 	endwhile;?>
