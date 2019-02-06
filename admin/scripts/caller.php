@@ -12,6 +12,16 @@
 		}else{
 			echo "Caller id was passed incorrectly.";
 		}
+
+		switch($dir){
+			case 'logout':
+				logged_out();
+				break;
+			case 'delete':
+				$id = $_GET['id'];
+				deleteUser($id);
+				break;
+		}
 	}
 
 

@@ -15,7 +15,7 @@
 
 <body>
 	<h2>
-		<?php echo $_SESSION['user_name'];?>
+		<?php echo 'Welcome to the administration panel, '.$_SESSION['user_name'].'!';?>
 	</h2>
 	<a href="admin_createuser.php">Create User</a>
 	<a href="admin_edituser.php">Edit User</a>

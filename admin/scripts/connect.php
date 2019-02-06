@@ -8,7 +8,7 @@ $dsn = 'mysql:' . http_build_query($db_dsn, '', ';');
 
 // Set up connection credentials
 $db_user = 'root';
-$db_pass = '';
+$db_pass = 'root';
 
 $pdo = new PDO($dsn, $db_user, $db_pass);
 
